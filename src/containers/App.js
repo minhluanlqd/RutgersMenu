@@ -1,35 +1,43 @@
-import React, {useState} from 'react';
-import Card from '../components/Card';
+import React, { useState } from "react";
+import Card from "../components/Card";
 import { Header } from "../components/header/Header";
-import FoodList  from '../components/Food/FoodList';
-import Modal from 'react-modal';
-import './App.css';
+import FoodList from "../components/Food/FoodList";
+import Modal from "react-modal";
+import "./App.css";
 
-Modal.setAppElement('#root');
+Modal.setAppElement("#root");
 
-function App () {
-
+function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const styles = {
+   "align-items":"center",
+    display: "flex",
+    "flex-direction": "column",
+  };
 
-  return(
+  return (
     <div className="App">
-      <Header/>
-      <Card click={() => setModalIsOpen(true)}/>
-      <Modal 
+      <Header />
+      <Card click={() => setModalIsOpen(true)} />
+      <Modal
         isOpen={modalIsOpen}
-        style={
-          {
-            overlay:{
-              backgroundColor:'red',
-            }      
-          }
-        }>
-          
-        <FoodList/>
+        style={{
+          overlay: {
+            backgroundColor: "red",
+          },
+        }}
+      >
+        <div style={styles}>
+          {" "}
+          <FoodList />
+        </div>
 
-        <button 
+        <button
           className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-pink"
-          onClick={() => setModalIsOpen(false)}>Close</button>
+          onClick={() => setModalIsOpen(false)}
+        >
+          Close
+        </button>
       </Modal>
     </div>
   );
