@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    box-shadow:5px 10px rgb(236, 231, 231);
+   
+    margin: auto;
+    text-align: center;
+    margin-top: -99px;
+    margin-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+
+    .options{
+        margin:auto;
+        margin-top: auto;
+        width: 22.5%;
+        color: white;
+        font-weight: bold;;
+        cursor: pointer;
+        
+        
+       
+    }
+}
