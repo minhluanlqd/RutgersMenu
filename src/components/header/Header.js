@@ -14,7 +14,7 @@ export const Header = () => (
 
       <a
         className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
-        to="/busch"
+        href="#"
         title="Home"
       >
         Busch
