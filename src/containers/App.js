@@ -17,11 +17,6 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
-      <Header/>
-      <Card></Card>
-      
-=======
       <Header />
       <Card click={() => setModalIsOpen(true)} />
       <Modal
@@ -44,7 +39,7 @@ function App() {
           Close
         </button>
       </Modal>
->>>>>>> master
+     
     </div>
   );
 }

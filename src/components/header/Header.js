@@ -1,16 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/rutgersLogo.png";
 import "./header.styles.scss";
-
-/*export const Header = () => (
-  <div className="header">
-    <img src={logo} alt='logo' />
-    <div className="options">Busch</div>
-    <div className="options">Livingston</div>
-    <div className="options">College Ave</div>
-    <div className="options">Cook/Douglass</div>
-  </div>
-);*/
+import {Link} from 'react-router-dom';
 
 export const Header = () => (
   <div>
@@ -23,7 +14,7 @@ export const Header = () => (
 
       <a
         className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
-        href="#"
+        to="/busch"
         title="Home"
       >
         Busch
