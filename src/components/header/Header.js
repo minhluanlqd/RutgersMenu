@@ -17,7 +17,7 @@ export const Header = () => (
     <nav className="nav db dt-l w-100 border-box pa3 ph5-l">
       <img
         src={logo}
-        class="dib w2 h2 br-100"
+        className="dib w2 h2 br-100"
         alt="Site Name"
       />
 
