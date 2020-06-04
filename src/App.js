@@ -3,45 +3,24 @@ import Card from "./components/Card";
 import { Header } from "./components/header/Header";
 import FoodList from "./components/Food/FoodList";
 import Modal from "react-modal";
+import CardMenuList from "./components/CardMenuList/CardMenuList";
 import "./App.css";
 
 Modal.setAppElement("#root");
 
 function App() {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  
   const styles = {
-   "align-items":"center",
+    "align-items": "center",
     display: "flex",
     "flex-direction": "column",
   };
-
+  const controlModal = [useState(false),useState(false),useState(false),useState(false)]; //4-2
   return (
     <div className="App">
       <Header />
-      <Card click={() => setModalIsOpen(true)} />
-      <Modal
-        isOpen={modalIsOpen}
-        style={{
-          overlay: {
-            backgroundColor: "red",
-          },
-        }}
-      >
-        <div style={styles}>
-          {" "}
-          <FoodList />
-        </div>
 
-        <button
-          className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-pink"
-          onClick={() => setModalIsOpen(false)}
-        >
-          Close
-        </button>
-      </Modal>
-   
-
-     
+      <CardMenuList controlModal={controlModal} />
     </div>
   );
 }
