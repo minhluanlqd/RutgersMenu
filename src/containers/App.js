@@ -34,8 +34,8 @@ function App() {
 
         <button
           className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-pink"
-          onClick={() => setModalIsOpen(false)}
-        >
+          onClick={() => setModalIsOpen(false)}>
+          
           Close
         </button>
       </Modal>
