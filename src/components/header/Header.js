@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/rutgersLogo.png";
 import "./header.styles.scss";
-import {Link} from 'react-router-dom';
 
 export const Header = () => (
   <div>
