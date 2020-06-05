@@ -1,31 +1,22 @@
 {
   "files": {
     "main.css": "/RutgersMenu/static/css/main.13b2fbea.chunk.css",
-    "main.js": "/RutgersMenu/static/js/main.c41faa70.chunk.js",
-    "main.js.map": "/RutgersMenu/static/js/main.c41faa70.chunk.js.map",
+    "main.js": "/RutgersMenu/static/js/main.26e23aa6.chunk.js",
+    "main.js.map": "/RutgersMenu/static/js/main.26e23aa6.chunk.js.map",
     "runtime-main.js": "/RutgersMenu/static/js/runtime-main.0845cdfd.js",
     "runtime-main.js.map": "/RutgersMenu/static/js/runtime-main.0845cdfd.js.map",
-    "static/js/2.6db64490.chunk.js": "/RutgersMenu/static/js/2.6db64490.chunk.js",
-    "static/js/2.6db64490.chunk.js.map": "/RutgersMenu/static/js/2.6db64490.chunk.js.map",
+    "static/js/2.66389ec3.chunk.js": "/RutgersMenu/static/js/2.66389ec3.chunk.js",
+    "static/js/2.66389ec3.chunk.js.map": "/RutgersMenu/static/js/2.66389ec3.chunk.js.map",
     "index.html": "/RutgersMenu/index.html",
-    "precache-manifest.cb46fd68d47583215a6de4f242661678.js": "/RutgersMenu/precache-manifest.cb46fd68d47583215a6de4f242661678.js",
+    "precache-manifest.8f6ebb49e4a5c6ab6f4097bc3b61d8e9.js": "/RutgersMenu/precache-manifest.8f6ebb49e4a5c6ab6f4097bc3b61d8e9.js",
     "service-worker.js": "/RutgersMenu/service-worker.js",
     "static/css/main.13b2fbea.chunk.css.map": "/RutgersMenu/static/css/main.13b2fbea.chunk.css.map",
-    "static/js/2.6db64490.chunk.js.LICENSE.txt": "/RutgersMenu/static/js/2.6db64490.chunk.js.LICENSE.txt",
-    "static/media/chickensalad.jpg": "/RutgersMenu/static/media/chickensalad.5bfc0c36.jpg",
-    "static/media/chickentaco.jpg": "/RutgersMenu/static/media/chickentaco.272ec043.jpg",
-    "static/media/cupcake.jpg": "/RutgersMenu/static/media/cupcake.1b9fe474.jpg",
-    "static/media/dininghall-1.jpg": "/RutgersMenu/static/media/dininghall-1.b83a66f1.jpg",
-    "static/media/dininghall-2.jpg": "/RutgersMenu/static/media/dininghall-2.b8dc2073.jpg",
-    "static/media/dininghall-3.jpg": "/RutgersMenu/static/media/dininghall-3.0875f300.jpg",
-    "static/media/dininghall-4.jpg": "/RutgersMenu/static/media/dininghall-4.9cc51537.jpg",
-    "static/media/pizza.jpg": "/RutgersMenu/static/media/pizza.ba330ddb.jpg",
-    "static/media/smashedpotato.jpg": "/RutgersMenu/static/media/smashedpotato.ab386896.jpg"
+    "static/js/2.66389ec3.chunk.js.LICENSE.txt": "/RutgersMenu/static/js/2.66389ec3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0845cdfd.js",
-    "static/js/2.6db64490.chunk.js",
+    "static/js/2.66389ec3.chunk.js",
     "static/css/main.13b2fbea.chunk.css",
-    "static/js/main.c41faa70.chunk.js"
+    "static/js/main.26e23aa6.chunk.js"
   ]
 }
