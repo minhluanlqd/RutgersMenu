@@ -1,37 +1,6 @@
 import React from "react";
 
-// import all images function
-/*function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => {
-    images[item.replace("./", "")] = r(item);
-    return 0; // just return to avoid warning
-  });
-  return images;
-}
-
-const images = importAll(
-  require.context("../../assets/images", false, /\.(png|jpg|svg)$/)
-);*/
-
 const FoodCard = ({ img, name, info, key }) => {
-  /*return (
-    <div>
-      <div className="pa4 tc">
-        {" "}
-        <img alt="load" src={img} className="br4 h3 w3 dib" />
-      </div>
-
-      <div>
-        <h2>{name}</h2>
-        <p>{info}</p>
-      </div>
-    </div>
-  );*/
-  const style = {
-    width: "200%",
-    
-  };
 
   return (
     

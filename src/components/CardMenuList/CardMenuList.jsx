@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import CardMenu from "../CardMenu/CardMenu";
 import { dininghalls } from "../DiningHalls";
 import Modal from "react-modal";
 import foodData from "../../data/foodData";
 import FoodList from "../Food/FoodList";
+
 const stylesModal = {
   "alignItems": "center",
   //display: "flex",
@@ -31,6 +32,15 @@ const CardMenuList = ({ controlModal }) => (
               },
             }}
           >
+            <button
+              className="f6 grow no-underline br-pill ph3 pv2 mt4 dib white bg-dark-pink"
+              onClick={() => {
+                controlModal[index][1](false);
+              }}
+            >
+              Close
+            </button>
+
             <div style={stylesModal}>
               <FoodList food={food} />
             </div>
@@ -39,7 +49,6 @@ const CardMenuList = ({ controlModal }) => (
               className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-pink"
               onClick={() => {
                 controlModal[index][1](false);
-                console.log("close??????");
               }}
             >
               Close

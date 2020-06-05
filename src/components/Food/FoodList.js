@@ -1,5 +1,4 @@
 import React from "react";
-import { menu } from "../Food/Menu";
 import FoodCard from "../Food/FoodCard";
 
 const FoodList = ({food}) =>

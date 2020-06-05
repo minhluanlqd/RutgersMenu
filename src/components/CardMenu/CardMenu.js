@@ -14,12 +14,6 @@ const CardMenu = ({
     height: "400px",
     width: "400px",
   };
-
-  const stylesModal = {
-    "align-items": "center",
-    display: "flex",
-    "flex-direction": "column",
-  };
   return (
     <div onClick={() => setModalIsOpen(true)}>
       <div className="tc grow bg-red br3 pa3 ma2 dib bw2 shadow-5">
