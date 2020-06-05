@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Card from "./components/Card";
-import { Header } from "./components/header/Header";
-import FoodList from "./components/Food/FoodList";
+
+import { Header } from "../components/header/Header";
+
 import Modal from "react-modal";
-import CardMenuList from "./components/CardMenuList/CardMenuList";
+import CardMenuList from "../components/CardMenuList/CardMenuList";
 import "./App.css";
 
 Modal.setAppElement("#root");

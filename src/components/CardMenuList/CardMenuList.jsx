@@ -5,9 +5,10 @@ import Modal from "react-modal";
 import foodData from "../../data/foodData";
 import FoodList from "../Food/FoodList";
 const stylesModal = {
-  "align-items": "center",
-  display: "flex",
-  "flex-direction": "column",
+  "alignItems": "center",
+  //display: "flex",
+ // "flex-direction": "column",
+ //flexWrap: 'wrap'
 };
 
 const CardMenuList = ({ controlModal }) => (
