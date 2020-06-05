@@ -11,7 +11,7 @@ function App() {
   const controlModal = [useState(false),useState(false),useState(false),useState(false)]; //4-2
   return (
     <div className="App">
-      <Header />
+      <Header clicked={controlModal}/>
       <CardMenuList controlModal={controlModal} />
     </div>
   );

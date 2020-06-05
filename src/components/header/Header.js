@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/images/rutgersLogo.png";
 import "./header.styles.scss";
 
-export const Header = () => (
+export const Header = (props) => (
   <div>
     <nav className="nav db dt-l w-100 border-box pa3 ph5-l">
       <img
@@ -11,34 +11,32 @@ export const Header = () => (
         alt="Site Name"
       />
 
-      <a
+      <div
         className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
         href="#"
         title="Home"
+        onClick={props.clicked[0][1]}
       >
         Busch
-      </a>
-      <a
+      </div>
+      <div
         className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
-        href="#"
-        title="How it Works"
-      >
-        College Ave
-      </a>
-      <a
-        className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
-        href="#"
-        title="Blog"
+        onClick={props.clicked[1][1]}
       >
         Livingston
-      </a>
-      <a
+      </div>
+      <div
         className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
-        href="#"
-        title="Press"
+        onClick={props.clicked[2][1]}
+      >
+        College Ave
+      </div>
+      <div
+        className="link dim dark-gray f6 f5-l dib mr3 mr4-l options"
+        onClick={props.clicked[3][1]}
       >
         Cook Douglass
-      </a>
+      </div>
     </nav>
   </div>
 );
