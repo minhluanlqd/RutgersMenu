@@ -15,7 +15,7 @@ const CardMenu = ({
     width: "400px",
   };
   return (
-    <div className=' w-30-l w-50-m center'>
+    <div>
       <div className="tc grow bg-red br3 pa3 ma2 dib bw2 shadow-5" onClick={() => setModalIsOpen(true)}>
         <img alt="load" src={img} style={stylesImg} />
         <div>
