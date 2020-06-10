@@ -9,6 +9,7 @@ app.use(express.json());
 
 app.get('/', (req, res) =>{
     res.end('Hello World');
+    console.log(req.body.name)
 })
 
 module.exports=app;
