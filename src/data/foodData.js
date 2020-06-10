@@ -7,6 +7,7 @@ const data = {
           "https://www.biggerbolderbaking.com/wp-content/uploads/2019/07/15-Minute-Pizza-WS-Thumbnail.png",
         name: "Pizza",
         info: "Calories: 285 Fat: 10.4g Protein: 12.2g",
+        
       },
       {
         id: 2,

@@ -10,8 +10,8 @@ const foodSchema = new mongoose.Schema({
     type: String,
     required: [true, "Food must have a campus"],
     enum: {
-      values: ["busch", "livingston", "collegeave", "cookdouglass"],
-      message: "Campus is either: busch, livingston, collegeave, cookdouglass",
+      values: ["busch", "livingston", "collegeAve", "cookdouglas"],
+      message: "Campus is either: busch, livingston, collegeAve, cookdouglas",
     },
   },
   info:{
