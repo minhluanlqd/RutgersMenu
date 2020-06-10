@@ -58,7 +58,6 @@ exports.addFood =async (req, res) =>{
 
 exports.deleteFoodById = async (req, res) => {
     let id = req.params.id;
-
     try {
         let dataDelete = await Food.findByIdAndDelete({_id:id});
         res.json({

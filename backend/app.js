@@ -6,10 +6,6 @@ app.use(express.json());
 app.use('/food', foodRouter);
 
 
-
-
-
-
 app.get('/', (req, res) =>{
     res.end('Hello World');
     console.log(req.body.name)
