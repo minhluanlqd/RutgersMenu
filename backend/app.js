@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const foodRouter = require("./router/foodRouter") ;
 
+app.use(cors());
 app.use(express.json());
 app.use('/food', foodRouter);
 

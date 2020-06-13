@@ -2,7 +2,7 @@ import React from "react";
 import CardMenu from "../CardMenu/CardMenu";
 import { dininghalls } from "../DiningHalls";
 import Modal from "react-modal";
-import foodData from "../../data/foodData";
+// import foodData from "../../data/foodData";
 import FoodList from "../Food/FoodList";
 
 const stylesModal = {
@@ -15,7 +15,7 @@ const stylesModal = {
 const CardMenuList = ({ controlModal }) => (
   <div style={{ marginTop: "99px" }}>
     {dininghalls.map((data, index) => {
-      const food = foodData[data.nameId].food;
+      // const food = foodData[data.nameId].food;
       return (
         <div>
           <CardMenu
@@ -42,7 +42,7 @@ const CardMenuList = ({ controlModal }) => (
             </button>
 
             <div style={stylesModal}>
-              <FoodList food={food} />
+              <FoodList campus={data.nameId}/>
             </div>
 
             <button
