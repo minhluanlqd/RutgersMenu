@@ -40,7 +40,7 @@ class FoodList extends Component{
       foodData : []
     }
     this.local = 'http://localhost:5000';
-    this.heroku = 'https://menurutgersbackend.herokuapp.com/';
+    this.heroku = 'https://menurutgersbackend.herokuapp.com';
   }
   componentDidMount(){
     axios.get(`${this.heroku}/food/${this.campus}`)
