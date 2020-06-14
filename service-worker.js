@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RutgersMenu/precache-manifest.8f6ebb49e4a5c6ab6f4097bc3b61d8e9.js"
+  "/RutgersMenu/precache-manifest.506e30c2fab72e578fef71c53b0d846f.js"
 );
 
 self.addEventListener('message', (event) => {
