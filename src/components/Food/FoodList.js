@@ -1,4 +1,4 @@
-import React, {useEffect, useState, Component} from "react";
+import React, {Component} from "react";
 import FoodCard from "../Food/FoodCard";
 import axios from 'axios';
 

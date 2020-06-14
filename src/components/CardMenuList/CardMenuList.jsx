@@ -2,8 +2,10 @@ import React from "react";
 import CardMenu from "../CardMenu/CardMenu";
 import { dininghalls } from "../DiningHalls";
 import Modal from "react-modal";
-// import foodData from "../../data/foodData";
+import {CSSTransition} from 'react-transition-group';
 import FoodList from "../Food/FoodList";
+
+import '../../styles/styles.css';
 
 const stylesModal = {
   "alignItems": "center",
@@ -23,15 +25,20 @@ const CardMenuList = ({ controlModal }) => (
             setModalIsOpen={controlModal[index][1]}
             modalIsOpen={controlModal[index][0]}
           />
+
+          <CSSTransition
+          timeout={300}
+          classNames="dialog">
+
           <Modal
+            closeTimeoutMS={500}
             key={data.id}
             isOpen={controlModal[index][0]}
             style={{
               overlay: {
                 backgroundColor: "red",
               },
-            }}
-          >
+            }}>
             <button
               className="f6 grow no-underline br-pill ph3 pv2 mt4 dib white bg-dark-pink"
               onClick={() => {
@@ -54,6 +61,7 @@ const CardMenuList = ({ controlModal }) => (
               Close
             </button>
           </Modal>
+          </CSSTransition>
         </div>
       );
     })}
