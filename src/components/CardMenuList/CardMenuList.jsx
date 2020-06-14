@@ -40,7 +40,7 @@ const CardMenuList = ({ controlModal }) => (
               },
             }}>
             <button
-              className="f6 grow no-underline br-pill ph3 pv2 mt4 dib white bg-dark-pink"
+              className="f6 grow no-underline br-pill ph3 pv2 mt4 dib white bg-green"
               onClick={() => {
                 controlModal[index][1](false);
               }}
@@ -53,7 +53,7 @@ const CardMenuList = ({ controlModal }) => (
             </div>
 
             <button
-              className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-pink"
+              className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-green"
               onClick={() => {
                 controlModal[index][1](false);
               }}
