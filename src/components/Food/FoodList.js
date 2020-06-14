@@ -39,9 +39,11 @@ class FoodList extends Component{
     this.state = {
       foodData : []
     }
+    this.local = 'http://localhost:5000';
+    this.heroku = 'https://menurutgersbackend.herokuapp.com/';
   }
   componentDidMount(){
-    axios.get(`http://localhost:5000/food/${this.campus}`)
+    axios.get(`${this.heroku}/food/${this.campus}`)
         .then(res => {
           this.setState({foodData: res.data.data});
           console.log(res.data.data);
