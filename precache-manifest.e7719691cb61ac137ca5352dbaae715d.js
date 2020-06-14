@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bd9433c17bff9137835f4ea537145c3",
+    "revision": "ddaaa2eb1572b99d6aa3610d350e4fc8",
     "url": "/RutgersMenu/index.html"
   },
   {
-    "revision": "4a59b9caaac339010229",
+    "revision": "409c01d0aa9b483d2611",
     "url": "/RutgersMenu/static/css/main.c68e7972.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RutgersMenu/static/js/2.13687056.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a59b9caaac339010229",
-    "url": "/RutgersMenu/static/js/main.4f7421a4.chunk.js"
+    "revision": "409c01d0aa9b483d2611",
+    "url": "/RutgersMenu/static/js/main.ea59b054.chunk.js"
   },
   {
     "revision": "6543a516acfc157a9494",

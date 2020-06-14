@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RutgersMenu/static/css/main.c68e7972.chunk.css",
-    "main.js": "/RutgersMenu/static/js/main.4f7421a4.chunk.js",
-    "main.js.map": "/RutgersMenu/static/js/main.4f7421a4.chunk.js.map",
+    "main.js": "/RutgersMenu/static/js/main.ea59b054.chunk.js",
+    "main.js.map": "/RutgersMenu/static/js/main.ea59b054.chunk.js.map",
     "runtime-main.js": "/RutgersMenu/static/js/runtime-main.0845cdfd.js",
     "runtime-main.js.map": "/RutgersMenu/static/js/runtime-main.0845cdfd.js.map",
     "static/js/2.13687056.chunk.js": "/RutgersMenu/static/js/2.13687056.chunk.js",
     "static/js/2.13687056.chunk.js.map": "/RutgersMenu/static/js/2.13687056.chunk.js.map",
     "index.html": "/RutgersMenu/index.html",
-    "precache-manifest.506e30c2fab72e578fef71c53b0d846f.js": "/RutgersMenu/precache-manifest.506e30c2fab72e578fef71c53b0d846f.js",
+    "precache-manifest.e7719691cb61ac137ca5352dbaae715d.js": "/RutgersMenu/precache-manifest.e7719691cb61ac137ca5352dbaae715d.js",
     "service-worker.js": "/RutgersMenu/service-worker.js",
     "static/css/main.c68e7972.chunk.css.map": "/RutgersMenu/static/css/main.c68e7972.chunk.css.map",
     "static/js/2.13687056.chunk.js.LICENSE.txt": "/RutgersMenu/static/js/2.13687056.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0845cdfd.js",
     "static/js/2.13687056.chunk.js",
     "static/css/main.c68e7972.chunk.css",
-    "static/js/main.4f7421a4.chunk.js"
+    "static/js/main.ea59b054.chunk.js"
   ]
 }
