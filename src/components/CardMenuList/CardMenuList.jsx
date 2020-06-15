@@ -6,14 +6,18 @@ import foodData from "../../data/foodData";
 import FoodList from "../Food/FoodList";
 
 const stylesModal = {
-  "alignItems": "center",
+  alignItems: "center",
   //display: "flex",
- // "flex-direction": "column",
- //flexWrap: 'wrap'
+  // "flex-direction": "column",
+  //flexWrap: 'wrap'
 };
 
 const CardMenuList = ({ controlModal }) => (
-  <div style={{ marginTop: "99px" }}>
+  <div
+    style={{
+      marginTop: "99px",
+    }}
+  >
     {dininghalls.map((data, index) => {
       const food = foodData[data.nameId].food;
       return (
@@ -30,6 +34,7 @@ const CardMenuList = ({ controlModal }) => (
               overlay: {
                 backgroundColor: "red",
               },
+              
             }}
           >
             <button
