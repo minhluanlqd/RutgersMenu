@@ -12,13 +12,14 @@ class CreateFoodForm extends React.Component {
     };
   }
 
-  handleChange = (e) => {
+  onChange = (e) => {
     const { value, name } = e.target;
     this.setState({ [name]: value });
   };
 
   onSubmit = (e) => {
       e.preventDefault();
+      console.log(this.state)
     this.setState({ name: "", info: "", img: "", campus: "" });
   };
 
@@ -35,6 +36,7 @@ class CreateFoodForm extends React.Component {
               className="form-control"
               value={this.state.campus}
               onChange={this.onChange}
+              name="campus"
             />
           </div>
           <div className="form-group">
@@ -45,6 +47,7 @@ class CreateFoodForm extends React.Component {
               className="form-control"
               value={this.state.name}
               onChange={this.onChange}
+              name="name"
             />
           </div>
           <div className="form-group">
@@ -54,6 +57,7 @@ class CreateFoodForm extends React.Component {
               className="form-control"
               value={this.state.info}
               onChange={this.onChange}
+              name="info"
             />
           </div>
           <div className="form-group">
@@ -63,6 +67,7 @@ class CreateFoodForm extends React.Component {
               className="form-control"
               value={this.state.img}
               onChange={this.onChange}
+              name="img"
             />
           </div>
 
