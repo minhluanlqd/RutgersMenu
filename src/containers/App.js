@@ -8,13 +8,24 @@ import AdminPage from "../pages/admin";
 Modal.setAppElement("#root");
 
 function App() {
-  const controlModal = [useState(false),useState(false),useState(false),useState(false)]; //4-2
-  
+  const controlModal = [
+    useState(false),
+    useState(false),
+    useState(false),
+    useState(false),
+  ]; //4-2
+  const PORT = process.env.PORT;
+
   return (
     <div className="App">
-     {/* <Header clicked={controlModal} />
-  <CardMenuList controlModal={controlModal} />*/}
-  <AdminPage campus={['Busch', 'CollegeAve', 'Livingston', 'Cook Douglas']} />
+      <div>
+        <Header clicked={controlModal} />
+        <CardMenuList controlModal={controlModal} />{" "}
+      </div>
+      )
+      <AdminPage
+        campus={["Busch", "CollegeAve", "Livingston", "Cook Douglas"]}
+      />
     </div>
   );
 }
