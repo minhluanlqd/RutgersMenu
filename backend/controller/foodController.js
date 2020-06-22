@@ -7,13 +7,12 @@ exports.getAllFood = async (req, res) => {
     res.json({
       data: food,
       message: "Success",
-      quantity: food.length
+      quantity: food.length,
     });
     // res.header["X-Total-Count"] = food.length;
     /*res.set({
       "X-Total-Count": food.length,
     });*/
-    
   } catch (e) {
     res.json({
       error: e,
@@ -53,6 +52,25 @@ exports.addFood = async (req, res) => {
     res.json({
       error: e,
     });
+  }
+};
+exports.updateFoodById = async (req, res) => {
+  const id = req.params.id;
+  try {
+    const updateFood = await Food.findOneAndUpdate({ _id:id }, req.body, {
+      runValidators: true,
+      new: true
+    });
+
+    res.status(200).json({
+      message: 'success',
+      updateFood: updateFood
+    })
+  } catch (e) {
+    console.log(e);
+    res.status(400).json({
+      error: e
+    })
   }
 };
 

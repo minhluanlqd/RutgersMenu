@@ -10,6 +10,8 @@ router.route("/")
 
 router.route("/:campus").get(foodController.getFoodByCampus);
 
-router.route('/:id').delete(authController.isLoggedIn, foodController.deleteFoodById)
+router.route('/:id')
+.patch(authController.isLoggedIn, foodController.updateFoodById)
+.delete(authController.isLoggedIn, foodController.deleteFoodById)
 
 module.exports = router;

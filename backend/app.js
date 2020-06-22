@@ -15,7 +15,7 @@ const userRouter = require('./router/userRouter');
   
 app.use(cors(corsOptions));
 app.use((req, res, next) =>{
-    res.set('Content-Range', 'posts 1-100/*');
+    console.log(req.headers.cookie);
     next();
 })
 app.use(express.json());
