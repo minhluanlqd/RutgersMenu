@@ -1,3 +1,3 @@
 # RutgersMenu
-*Link to web: *
+*Link to web:*
 https://minhluanlqd.github.io/RutgersMenu/ 
