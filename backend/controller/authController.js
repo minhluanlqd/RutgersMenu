@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const User = require("../model/userModel");
 const { promisify } = require("util");
 
-const JWTSecret = "823uienvujbvp4g936967**/398u8t43";
+const JWTSecret = "LuanChymToNhuPhich";
 const signToken = (id) => {
   return jwt.sign({ id }, JWTSecret, {
     expiresIn: '1d',
